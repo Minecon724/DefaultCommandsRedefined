@@ -1,2 +1,1 @@
-# DefaultCommandsRedefined
-Better bukkit commands.
+code soon(tm)
