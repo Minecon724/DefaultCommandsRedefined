@@ -1,0 +1,20 @@
+name: DefaultCommandsRedefined
+main: pl.minecon724.dcr.DefaultCommandsRedefined
+version: ${project.version}
+description: Better bukkit commands.
+website: https://www.spigotmc.org/resources/97412
+author: Minecon724
+commands:
+  dcr:
+    description: The ultimate advanced plugin list
+    usage: /<command>
+permissions:
+  dcr.plugins:
+    description: Required permission for running the plugins command
+    default: op
+  dcr.version:
+    description: Required permission for running the version command
+    default: op
+  dcr.list:
+    description: Required permission for running the list command
+    default: op

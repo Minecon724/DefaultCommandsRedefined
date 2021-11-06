@@ -1,0 +1,41 @@
+format:
+  noPermission: "&cYou're lacking a permission node: &l%perm%"
+  missingArgs: "&cMissing arguments!"
+  invalidArg: "&cInvalid argument!"
+  
+  plugins:
+    # Colors, see https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html
+    # Enabled and disabled plugins
+    enabled: GREEN
+    disabled: RED
+    
+    # Here you can use '&' for colors. Available placeholders: count, enabled
+    prefix: "Plugins (%enabled% enabled out of %count%): "
+    separator: "&f, "
+    # You can use them in placeholders (status)
+    enabledStr: "&2Plugin is enabled!"
+    disabledStr: "&cPlugin is disabled!"
+    # Available placeholders: name, version, description, authors, website, status
+    hover: |-
+      &9%name% &b%version%
+      &f%description%
+      &fAuthor(s): &b%authors%
+      &fWebsite: &b%website%
+      %status%
+
+  version:
+    # Available placeholders: software, version, api
+    format: "This server is running &9%software% &b%version% &f(implementing API version &b%api%)"
+
+  list:
+    # Available placeholder: online, max
+    prefix: "There are &b%online%&f out of &b%max%&f players online:"
+    separator: "&f, "
+    playerColor: WHITE
+
+display:
+  # true for hiding plugins that are in the list (blacklist mode), false for showing plugins ONLY in the list (whitelist mode)
+  blacklist: true
+  # case sensitive, set to [] if you dont want to use this feature
+  list:
+  - Example
